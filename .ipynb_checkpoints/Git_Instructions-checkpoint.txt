@@ -1,0 +1,7 @@
+After making changes:
+git add .
+git commit -m "Commit Message"
+git push
+
+To get changes someone else pushed:
+git pull
