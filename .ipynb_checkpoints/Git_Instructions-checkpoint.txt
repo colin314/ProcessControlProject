@@ -5,3 +5,6 @@ git push
 
 To get changes someone else pushed:
 git pull
+
+To reset your local changes
+git reset --hard
