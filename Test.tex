@@ -1,0 +1,64 @@
+\documentclass[]{article}
+\usepackage{layouts}
+\usepackage{multicol}
+\usepackage{tikz}
+\usepackage{color}
+\usepackage{listings}
+
+\usepackage[left=20mm,right=20mm,top=33.95mm,bottom=33.95mm]{geometry}
+
+\begin{document}
+textwidth in cm: \printinunitsof{cm}\prntlen{\textwidth}
+textwidth in cm: \printinunitsof{cm}\prntlen{\linewidth}
+
+\colorbox{darkgray}{Black text on red background}
+
+\noindent\colorbox{darkgray}{\makebox[\linewidth]{Black text on red background}}
+
+\begin{multicols}{2}
+
+
+This one is deep. Remember etaoin shrdlu? (Maybe you don't. Never mind, a bulletin on the subject is forthcoming.) Remember the Illuminati and fnord? Lorem ipsum is the same deal--one of those inscrutable phrases that just keeps turning up. Surely it means something. Surely it's invested with, you know, mysto power. Lorem ipsum, my children. So mote it be.
+
+textwidth in cm: \printinunitsof{cm}\prntlen{\textwidth}
+textwidth in cm: \printinunitsof{cm}\prntlen{\linewidth}
+\newlength{\mywidth}
+\setlength{\mywidth}{\linewidth}
+\addtolength{\mywidth}{-0.5\columnsep}
+\newlength{\mytikzwidth}
+\setlength{\mytikzwidth}{\linewidth}
+\addtolength{\mytikzwidth}{-4ex}
+mywidth: \the\mywidth\\ columnsep: \the\columnsep\\
+\noindent\colorbox{lightgray}{\makebox[\mywidth][c]{Black text on red background}}
+
+This one is deep. Remember etaoin shrdlu? (Maybe you don't. Never mind, a bulletin on the subject is forthcoming.) Remember the Illuminati and fnord? Lorem ipsum is the same deal--one of those inscrutable phrases that just keeps turning up. Surely it means something. Surely it's invested with, you know, mysto power. Lorem ipsum, my children. So mote it be.
+
+
+\noindent\colorbox{darkgray}{Black text on red background}
+mywidth: \the\mywidth columnsep: \the\columnsep colwidth: \the\columnwidth \\
+
+\noindent\colorbox{lightgray}{\makebox[\mywidth][c]{Black text on red background}}
+
+\noindent\begin{tikzpicture}
+  \draw node[draw=black,fill=black!20,rounded corners,inner sep=2ex,text width=\mytikzwidth] {
+    Lorem ipsum dolor sit amet \dots
+    };
+\end{tikzpicture}
+
+\definecolor{darkgray}{rgb}{0.95,0.95,0.95}
+\lstset{backgroundcolor=\color{darkgray}}
+\lstset{columns=fullflexible, basicstyle=\ttfamily,  basicstyle=\tiny, numbers=left, numberstyle=\tiny, stepnumber=2, numbersep=15pt}
+\begin{lstlisting}%[frame=tb]
+(let ((buffer (url-retrieve-synchronously
+           "http://tromey.com/elpa/package-install.el")))
+  (save-excursion
+    (set-buffer buffer)
+    (goto-char (point-min))
+    (re-search-forward "^$" nil 'move)  ;;$
+    (eval-region (point) (point-masx))
+    (kill-buffer (current-buffer))))
+\end{lstlisting}
+
+\end{multicols}
+
+\end{document}
