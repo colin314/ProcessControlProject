@@ -1,0 +1,191 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{htgc}{article}{}
+      \name{author}{3}{}{%
+        {{hash=3290fdbb7728c749b3cf73cad5d4de8a}{%
+           family={Culberg},
+           familyi={C\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod}}}%
+        {{hash=bed22facc957e5c54406e7f68e675e3a}{%
+           family={Negnevitsky},
+           familyi={N\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=a89b4d10d79767b615d06bec0d544e6c}{%
+           family={Muttaqi},
+           familyi={M\bibinitperiod},
+           given={Kashem\bibnamedelima M.},
+           giveni={K\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{56f810477462a9ce75e85840649a17b7}
+      \strng{fullhash}{56f810477462a9ce75e85840649a17b7}
+      \strng{bibnamehash}{56f810477462a9ce75e85840649a17b7}
+      \strng{authorbibnamehash}{56f810477462a9ce75e85840649a17b7}
+      \strng{authornamehash}{56f810477462a9ce75e85840649a17b7}
+      \strng{authorfullhash}{56f810477462a9ce75e85840649a17b7}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Australasian Universities Power Engineering Conference}
+      \field{title}{Hydro-turbine governor control: theory, techniques and limitations}
+      \field{year}{2006}
+      \verb{doi}
+      \verb https://ro.uow.edu.au/cgi/viewcontent.cgi?referer=&httpsredir=1&article=5426&context=eispapers
+      \endverb
+    \endentry
+    \entry{SayanoRes}{online}{}
+      \name{author}{1}{}{%
+        {{hash=ff0da7f0eb2ec02e72048195923a4482}{%
+           family={Geek},
+           familyi={G\bibinitperiod},
+           given={Clever},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{ff0da7f0eb2ec02e72048195923a4482}
+      \strng{fullhash}{ff0da7f0eb2ec02e72048195923a4482}
+      \strng{bibnamehash}{ff0da7f0eb2ec02e72048195923a4482}
+      \strng{authorbibnamehash}{ff0da7f0eb2ec02e72048195923a4482}
+      \strng{authornamehash}{ff0da7f0eb2ec02e72048195923a4482}
+      \strng{authorfullhash}{ff0da7f0eb2ec02e72048195923a4482}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Sayano-Shushenskoe reservoir}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://clever-geek.imtqy.com/articles/381869/index.html
+      \endverb
+      \verb{url}
+      \verb https://clever-geek.imtqy.com/articles/381869/index.html
+      \endverb
+    \endentry
+    \entry{SayanoAccidentUpdate}{article}{}
+      \name{author}{1}{}{%
+        {{hash=2e32dec27e1782b3b791502d57e7d757}{%
+           family={Hamill},
+           familyi={H\bibinitperiod},
+           given={Frank\bibnamedelima A.},
+           giveni={F\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {International Association for Hydro-Environment Engineering}%
+        {Research}%
+      }
+      \strng{namehash}{2e32dec27e1782b3b791502d57e7d757}
+      \strng{fullhash}{2e32dec27e1782b3b791502d57e7d757}
+      \strng{bibnamehash}{2e32dec27e1782b3b791502d57e7d757}
+      \strng{authorbibnamehash}{2e32dec27e1782b3b791502d57e7d757}
+      \strng{authornamehash}{2e32dec27e1782b3b791502d57e7d757}
+      \strng{authorfullhash}{2e32dec27e1782b3b791502d57e7d757}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Hydrolink}
+      \field{title}{Sayano Shushenskaya 2009 Accident Update}
+      \field{year}{2020}
+      \verb{doi}
+      \verb https://static.iahr.org/upload/file/20200703/1593762853369684.pdf
+      \endverb
+    \endentry
+    \entry{sayanoDam}{online}{}
+      \name{author}{1}{}{%
+        {{hash=829649f815f74bc6e86224976c75547d}{%
+           family={ilikese.com},
+           familyi={i\bibinitperiod}}}%
+      }
+      \strng{namehash}{829649f815f74bc6e86224976c75547d}
+      \strng{fullhash}{829649f815f74bc6e86224976c75547d}
+      \strng{bibnamehash}{829649f815f74bc6e86224976c75547d}
+      \strng{authorbibnamehash}{829649f815f74bc6e86224976c75547d}
+      \strng{authornamehash}{829649f815f74bc6e86224976c75547d}
+      \strng{authorfullhash}{829649f815f74bc6e86224976c75547d}
+      \field{sortinit}{i}
+      \field{sortinithash}{9417e9a1288a9371e2691d999083ed39}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Sayano-Shushenskaya Dam}
+      \verb{urlraw}
+      \verb https://www.ilikese.com/industry/energy/power-station/hydro/sayano-shushenskaya-dam/#:~:text=The%20plant%20is%20operated%20by%20RusHydro.%20The%20plant,of%20640%20MW%20at%20194-metre%20%28636%20ft%29%20head
+      \endverb
+      \verb{url}
+      \verb https://www.ilikese.com/industry/energy/power-station/hydro/sayano-shushenskaya-dam/#:~:text=The%20plant%20is%20operated%20by%20RusHydro.%20The%20plant,of%20640%20MW%20at%20194-metre%20%28636%20ft%29%20head
+      \endverb
+    \endentry
+    \entry{sluiceGate}{online}{}
+      \name{author}{1}{}{%
+        {{hash=3841753f3ffc51cac8bc3f335b7a84fd}{%
+           family={Toolbox},
+           familyi={T\bibinitperiod},
+           given={The\bibnamedelima Engineering},
+           giveni={T\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{3841753f3ffc51cac8bc3f335b7a84fd}
+      \strng{fullhash}{3841753f3ffc51cac8bc3f335b7a84fd}
+      \strng{bibnamehash}{3841753f3ffc51cac8bc3f335b7a84fd}
+      \strng{authorbibnamehash}{3841753f3ffc51cac8bc3f335b7a84fd}
+      \strng{authornamehash}{3841753f3ffc51cac8bc3f335b7a84fd}
+      \strng{authorfullhash}{3841753f3ffc51cac8bc3f335b7a84fd}
+      \field{sortinit}{T}
+      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Sluic Gate Flow Measurements}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.engineeringtoolbox.com/sluice-gate-flow-measurement-d_591.html
+      \endverb
+      \verb{url}
+      \verb https://www.engineeringtoolbox.com/sluice-gate-flow-measurement-d_591.html
+      \endverb
+    \endentry
+    \entry{sayWiki}{online}{}
+      \name{author}{1}{}{%
+        {{hash=9c677286866aad38f8e9b660f5411814}{%
+           family={Wikipedia},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{fullhash}{9c677286866aad38f8e9b660f5411814}
+      \strng{bibnamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authorbibnamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authornamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authorfullhash}{9c677286866aad38f8e9b660f5411814}
+      \field{sortinit}{W}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{2009 Sayano-Shushenskaya power station accident}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/wiki/2009_Sayano-Shushenskaya_power_station_accident
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/2009_Sayano-Shushenskaya_power_station_accident
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
