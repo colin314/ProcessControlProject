@@ -85,13 +85,13 @@
             W=\eta \rho gA\sqrt{2gh}\Delta z
         \end{equation}
 
-        $W$ is the turbine power output, $\eta$ is the turbine efficiency (which is a constant at $0.8286$), $\Delta z$ is the height of the gate, and $\rho$ is the density of water (assumed to be constant at $998.29\ kg/m^3$). Our process will be automatically adjusting the valve position to account for the dam level, in order to keep the power output within acceptable ranges.
+        $W$ is the turbine power output, $\eta$ is the turbine efficiency (which is a constant at $0.8286$), $\Delta z$ is the height of the gate, and $\rho$ is the density of water (assumed to be constant at $998.29\ kg/m^3$). Our process will be automatically adjusting the gate height to account for the dam level, in order to keep the power output within acceptable ranges.
 
         Further theory, beyond the scope of this report, can be found from the following sources: “2009 accident update” \cite{SayanoAccidentUpdate} gives a detailed look at the background of the 2009 accident, “Hydro-turbine governor control: theory, techniques and limitations” \cite{htgc} outlines PID controller theory used in power plants.
 
         \section{Data Simulation}
 
-        Due to the nature of the subject, we opted for simulated data and responses. To design a PID control system, some starting parameters must be derived using an FOPDT model.  We quickly found out that our system is nonlinear when we have the conditional statements when the system transitions from high power to low power operating zone, making it difficult to construct an FOPDT model because the gain changes when if the gate height is used as the controller input.  Our solution was to use power output as the controller input, treat dam level as a disturbance variable, and have the gate height be the controller output.
+        Due to the nature of the subject, we opted for simulated data and responses. To design a PID control system, some starting parameters must be derived using an FOPDT model. The turbine has two zones of operation, a low-power zone and a high-power zone. If the gate height is treated as the controller input then the controller gain is not the same for each zone. Our solution was to use power output as the controller input, treat dam level as a disturbance variable, and have the gate height be the controller output.
 
         \vspace{1ex}
 
