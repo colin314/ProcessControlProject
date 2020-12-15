@@ -108,14 +108,14 @@
             \end{center}
         \end{minipage}
 
-        Equation \ref{powerEq} was used to generate an open-loop response to a change in dam height. This was used to generate the FOPDT parameters in Table \ref{foParams}.
+        Equation \ref{powerEq} was used to generate an open-loop response to a change in dam height (Figure \ref{fopdt}). This was used to generate the FOPDT parameters in Table \ref{foParams}.
         
-        % \vspace{5mm}
-        % \noindent
-        % \begin{minipage}{0.49\textwidth}
-        %     \includegraphics[width=\textwidth]{FOPDT.png}
-        %     \captionof{figure}{FOPDT Model Fit}
-        % \end{minipage}
+        \vspace{5mm}
+        \noindent
+        \begin{minipage}{0.49\textwidth}
+            \includegraphics[width=\textwidth]{FOPDT.png}
+            \captionof{figure}{FOPDT Model Fit}\label{fopdt}
+        \end{minipage}
             
         \section{PID Controller}
     
@@ -149,6 +149,12 @@
             \captionof{figure}{Tuned PID Controller}\label{tunedCon}
         \end{minipage}
 
+        \section{Conclusion}
+        
+        In conclusion, we were able to design and code a PID controller to manage the valve that controls the input flow.  One major assumption made was that the properties of the water are constant.  Another assumption is that all work generated from the dam comes from potential energy.  A further study would need to be done to find the pressure drops and work along the gate head that would be lost, as well as develop a higher order model that would account for the gain changes that were mentioned. This is a simple start to designing and coding a fully automated system for the hydroelectric station.  Though this would not be the best to implement into a current system, it does model a basic outline of the dam PID controller.
+        
+        \pagebreak
+        
         \section{Non-Technical Considerations}
 
         Turbine speed governors are a critical part of a hydroelectric power plant, and failure has catastrophic consequences. The 2009 accident at the Sayano-Shushenskaya power plant killed 75 people and led to widespread power outages. Therefore, it is important to not only consider the impact of the control system, but the impact of the dam and hydroelectric power plant.
@@ -161,10 +167,6 @@
 
         When designing the turbine, to reduce environmental stress, we recommend using a filter before the entrance of the dam, so that aquatic life and debris do not enter the turbine. We also recommend doing research into the effects of the dam on wildlife and the heights of streams in surrounding areas. Emergency plans need to be created to account for if these filters fail. These filters also need to be cleaned and replaced often.
         There are many benefits that a hydroelectric power plant provides, and a good control system ensures that the plant remains operational.
-
-        \section{Conclusion}
-
-        In conclusion, we were able to design and code a PID controller to manage the valve that controls the input flow.  One major assumption made was that the properties of the water are constant.  Another assumption is that all work generated from the dam comes from potential energy.  A further study would need to be done to find the pressure drops and work along the gate head that would be lost, as well as develop a higher order model that would account for the gain changes that were mentioned. This is a simple start to designing and coding a fully automated system for the hydroelectric station.  Though this would not be the best to implement into a current system, it does model a basic outline of the dam PID controller.
 
 
     \end{multicols*}
