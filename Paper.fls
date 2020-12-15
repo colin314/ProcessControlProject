@@ -145,11 +145,11 @@ INPUT C:\Users\canderson\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsf
 INPUT C:\Users\canderson\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmbx7.tfm
 OUTPUT c:\Users\canderson\source\repos\ProcessControlProject\Paper.pdf
 INPUT C:\Users\canderson\AppData\Local\MiKTeX\2.9\pdftex\config\pdftex.map
-INPUT c:\Users\canderson\source\repos\ProcessControlProject\FOPDT.png
-INPUT c:\Users\canderson\source\repos\ProcessControlProject\FOPDT.png
-INPUT c:\Users\canderson\source\repos\ProcessControlProject\FOPDT.png
-INPUT c:\Users\canderson\source\repos\ProcessControlProject\FOPDT.png
-INPUT c:\Users\canderson\source\repos\ProcessControlProject\FOPDT.png
+INPUT c:\Users\canderson\source\repos\ProcessControlProject\FOPDT_big.png
+INPUT c:\Users\canderson\source\repos\ProcessControlProject\FOPDT_big.png
+INPUT c:\Users\canderson\source\repos\ProcessControlProject\FOPDT_big.png
+INPUT c:\Users\canderson\source\repos\ProcessControlProject\FOPDT_big.png
+INPUT c:\Users\canderson\source\repos\ProcessControlProject\FOPDT_big.png
 INPUT c:\Users\canderson\source\repos\ProcessControlProject\projectPID_untuned.png
 INPUT c:\Users\canderson\source\repos\ProcessControlProject\projectPID_untuned.png
 INPUT c:\Users\canderson\source\repos\ProcessControlProject\projectPID_untuned.png
