@@ -54,7 +54,7 @@
     \end{center}
 
 
-    A project exploring the real scenario of the Sayano-Shushenskaya power station accident that occurred in 2009.  A simulated model of a single power generation system at the site is developed. The model shows how the opening of the water flow gate is changed through a typical year to reach maximum power generation without damaging the turbine.  The model is then fitted with a First Order Plus Dead Time (FOPDT) model to generate controller parameters for a PID controller that automates the opening and closing of the watergate.  Implications, environmental factors, and public safety of using the system is also discussed.
+    A project exploring the real scenario of the Sayano-Shushenskaya power station accident that occurred in 2009.  A simulated model of a single power generation system at the site is developed. The model shows how the opening of the water flow gate is changed through a typical year to reach maximum power generation without damaging the turbine.  The model is then fitted with a First Order Plus Dead Time (FOPDT) model to generate controller parameters for a PID controller that automates the opening and closing of the watergate.  Implications, environmental factors, and public safety of using the system are also discussed.
 
     \noindent\makebox[\linewidth]{\rule{\textwidth}{0.4pt}}
 
@@ -73,13 +73,13 @@
 
         \section{Theory}
 
-        We are modeling a turbine power generation system, with a desire to maintain the power output within certain “safety zones” in order to reduce vibrations on the generator. We control the power output of the system by adjusting the dam gate valve in order to let water flow through. Thus, the input for our process is our valve position, which controls the gate height, and the output is the power produced by the turbine. These two variables are related through a series of equations. The first is: 
+        We are modeling a turbine power generation system, with a desire to maintain the power output within certain “safety zones” in order to reduce vibrations on the generator. We control the power output of the system by adjusting the dam gate valve in order to let water flow through. Thus, the input for the power generation model is the gate height, and the output is the power produced by the turbine. These two variables are related through a series of equations. The first is: 
 
         \begin{equation}\label{flowEq}
             q = A \sqrt{2gh}
         \end{equation}
 
-        $q$ is the volumetric flow rate, $h$ is the hight of the water in relation to the turbine entrance, and $A$ is the area of the gate that is available for water to flow through. In this situation, h is a variable because the dam level will change seasonally throughout the year, and $A$ will be change with the height of the gate (controller output). We then plug Equation \ref{flowEq} into our overall energy balance:
+        $q$ is the volumetric flow rate, $h$ is the height of the water in relation to the turbine entrance, and $A$ is the area of the gate that is available for water to flow through. In this situation, $h$ is a variable because the dam level will change seasonally throughout the year, and $A$ will be change with the height of the gate (controller output). We then plug Equation \ref{flowEq} into our overall energy balance to generate our physics based model (Equation \ref{powerEq}).
 
         \begin{equation}\label{powerEq}
             W=\eta \rho gA\sqrt{2gh}\Delta z
